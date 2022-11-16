@@ -1,0 +1,153 @@
+#title {
+  background-color: #D0B8A8
+}
+
+.container-fluid {
+  padding: 2% 12%
+}
+
+h1 {
+  font-family: 'Fuzzy Bubbles', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+  font-family:'Fuzzy Bubbles';
+  font-weight: bold;
+}
+
+h3 {
+  font-family:'Fuzzy Bubbles';
+  font-weight: bold;
+}
+
+p{
+  font-family:'Fuzzy Bubbles';
+  color: #8b8686
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Merriweather';
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Fuzzy Bubbles', sans-serif;
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 6% 8% 9% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color:#fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #88259a;
+  margin-bottom: 1.5rem;
+
+}
+
+.icon:hover{
+  color: rgb(250, 228, 207)
+}
+
+#testimonials {
+  text-align: center;
+  background-color:#D0B8A8
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+#press{
+  background-color:#D0B8A8;
+  text-align: center;
+}
+
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding:120px;
+  text-align: center;
+}
+.pricing-header{
+  color: #000
+}
+
+.pricing-column{
+  padding: 10% 1%;
+}
+
+#cta{
+  background-color: #D0B8A8;
+  color:#fff;
+  padding: 7% 15%;
+  text-align:center;
+}
+
+.cta-heading{
+  font-family:'Fuzzy Bubbles';
+  font-weight:bold;
+  font-size:3.0rem;
+  line-height:2.0;
+}
+
+#footer{
+  padding:8% 16%;
+  text-align:center;
+}
+
+.social-icon{
+  margin:22px 12px;
+
+}
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform:rotate(0);
+  }
+ }
