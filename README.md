@@ -1,1 +1,1 @@
-This is my file about my pofolio for COGS 3!
+This is my study Buddy project that using bootstrap: https://xinyuw579.github.io/studyBuddy/
